@@ -57,7 +57,7 @@ public class leaky {
                 sent = 0;
 
             if (recv == -1)
-                System.out.println(i + "\t\t" + a[i] + "\tdropped\t" + sent + "\t" + buck_rem);
+                System.out.println(i + "\t\t" + a[i] + "\t\t"+dropped+"\t" + sent + "\t" + buck_rem);
             else
                 System.out.println(i + "\t\t" + a[i] + "\t\t" + recv + "\t" + sent + "\t" + buck_rem);
         }
